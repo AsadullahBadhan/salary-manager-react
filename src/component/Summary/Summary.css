@@ -1,0 +1,23 @@
+.summary {
+    font-family: roboto;
+    background-color: crimson;
+    color: white;
+}
+
+.summary h2 {
+    text-align: center;
+}
+
+.summary hr {
+    width: 70%;
+}
+
+.summary p {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.summary>* {
+    position: sticky;
+    top: 10px;
+}

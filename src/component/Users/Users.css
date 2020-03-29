@@ -1,0 +1,60 @@
+.user-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-left: 100px;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #C206F9;
+
+}
+
+.user-container img {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #C206F9;
+    border-radius: 50%;
+}
+
+.user-description {
+    color: #C206F9;
+    margin-left: 100px;
+}
+
+.user-description p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 8px;
+
+}
+
+.pay-btn {
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    background-image: linear-gradient(-162.6deg, #c206f9, #a237db);
+    border: 1px solid #c206f9;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px #999;
+}
+
+.paid {
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(7, 160, 7);
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+}
+
+.pay-btn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
